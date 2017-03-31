@@ -14,7 +14,7 @@ paginate: 3
 navigation:
  - title: Home
    url: /index.html
- - title: Articles
+ - title: All Posts
    url: /articles
  - title: Resume
    url: /resume
