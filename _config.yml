@@ -1,0 +1,31 @@
+title: Moments of Inspiration
+description: A production blog for Micah Theriot's Senior Project
+
+url: ''
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 3
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Articles
+   url: /articles
+ - title: Resume
+   url: /resume
+ - title: Portfolio
+   url: /portfolio
+
+
+# social:
+#    github: brianmaierjr
+#    twitter: brianmaierjr
+#    facebook: brianmaierjr
+#    email: brimaidesigns@gmail.com
+#
+# google_analytics: "UA-58263416-1"

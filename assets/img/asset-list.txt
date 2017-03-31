@@ -1,0 +1,24 @@
+School:
+  - 2D Design (multiple)
+  - Drawing Composition (multiple)
+  - Printmaking:
+      • hands and cocktails (litho)
+      • tree man (woodcut)
+      • falling into buildings (litho)
+  - Film Photo: final images
+  - Collage from figure drawing
+  - Digital Photo:
+      • landscape
+      • Portrait
+  - Digital Art 1
+      • pattern
+      • character design
+  - Typography
+      • book example
+      • contrast examples
+  - Creative Coding
+      • anything I can manage to get on there
+  - Moving Image
+      • projection
+      • final project
+  - 
