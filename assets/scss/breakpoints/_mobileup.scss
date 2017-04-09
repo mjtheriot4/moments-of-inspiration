@@ -532,12 +532,13 @@ PORTFOLIO PAGE STYLING
     padding: 0;
     padding-bottom: 50%;
     list-style: none;
-    position: relative;
+    background-position: center;
+    background-size: cover;
   }
   img {
-    position: absolute;
     width: 200%;
     margin: 0;
     padding: 0;
   }
+
 }
