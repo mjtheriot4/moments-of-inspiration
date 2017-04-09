@@ -113,7 +113,7 @@ MENU STYLING
   user-select: none;
   float: right;
   line-height: 2em;
-  margin-top: .5em;
+  margin-top: 2em;
   background-color: $background-color;
   border-radius: 4px;
   padding: 0 .5em;
@@ -181,12 +181,16 @@ HEADER STYLING
 	background-position: center center;
 	color: white;
 	padding: 0;
-	height: 3em;
+	height: 6em;
 
 	.container {
 		padding: 0;
 		@include container(100%);
 	}
+  img {
+    height: 6rem;
+    padding: 1rem;
+  }
 
 	h1 {
 		margin: 0;
@@ -201,10 +205,11 @@ HEADER STYLING
 		a {
 			color: white;
 			text-decoration: none;
+
+
 		}
 	}
 }
-
 
 /***************
 POST STYLING

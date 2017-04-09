@@ -54,7 +54,7 @@ HEADER STYLING
 ***************/
 
 .header {
-	height: 20em;
+	height: 25em;
 	position: relative;
 	padding-bottom: 2em;
 
@@ -72,19 +72,27 @@ HEADER STYLING
 		line-height: 1;
 		letter-spacing: -3px;
 		padding-left: 0;
+
+		img {
+	    height: 20rem;
+	    padding-top: 3rem;
+	  }
 	}
 
 	nav {
 		float: left;
 		clear: left;
+		padding-bottom: 2em;
 
 		ul {
 			margin: 0;
 			li {
 				display: inline;
 				line-height: 3em;
-				background: none;
-				padding: 0 5px;
+				background: $primary-color;
+				padding: 5px;
+				margin-left: 8px;
+				padding-bottom: 6em;
 				border: none;
 
 				a {
@@ -94,13 +102,13 @@ HEADER STYLING
 					padding: 0 .25em;
 
 					&:hover {
-						color: darken(white, 20%);
+					color: darken($primary-color, 50%);
 					}
 				}
 
 				&.current {
-					padding-bottom: .25em;
-					border-bottom: 4px solid rgba(255,255,255,.4);
+				//	padding-bottom: .25em;
+					border-top: 4px solid darken($primary-color, 35%);
 				}
 			}
 		}
