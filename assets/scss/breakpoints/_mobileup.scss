@@ -495,11 +495,9 @@ POST LIST STYLING
 }
 
 
-
 /***************
 RESUME PAGE STYLING
 ***************/
-
 
 #resume {
 	& img {
@@ -507,4 +505,39 @@ RESUME PAGE STYLING
 		margin: 0 auto;
 		height: 6em;
 	}
+}
+
+/***************
+PORTFOLIO PAGE STYLING
+***************/
+
+#portfolio {
+
+  div {
+    background: black;
+    margin: 0 auto;
+    padding: 0;
+  }
+  ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+  li {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 0;
+    max-width: 500px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50%;
+    list-style: none;
+    position: relative;
+  }
+  img {
+    position: absolute;
+    width: 200%;
+    margin: 0;
+    padding: 0;
+  }
 }
